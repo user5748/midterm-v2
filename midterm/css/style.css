@@ -1,0 +1,336 @@
+body {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.main {
+    background-color: #F4F5F7;
+}
+
+.main2 {
+    background: #F4F5F7;
+    height: 203px;
+
+}
+
+.logo {
+    min-width: 20%;
+    float: left;
+    min-height: 83px;
+    padding-top: 12px;
+}
+
+.menu {
+    min-width: 60%;
+    float: left;
+    min-height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu::after {
+    content: "";
+    position: absolute;
+    width: 91%;
+    height: 3px;
+    background-color: #25347666;
+    bottom: 0px;
+    left: 65px;
+}
+
+.zeland {
+    min-width: 20%;
+    float: left;
+    min-height: 83px;
+    background: #253476;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.menu ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0 15px;
+    margin: 0 10px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #1F1F24;
+}
+
+.zeland p {
+    float: left;
+    padding-top: 25px;
+    width: 50%;
+    padding-left: 15px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.macaron {
+    margin-top: 50px;
+}
+
+.macaron1 {
+    float: left;
+    position: relative;
+}
+
+.macaron1 i {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+}
+
+.macaron1 h1 {
+    float: left;
+    display: none;
+}
+
+.food_content {
+    float: left;
+}
+
+.food_content h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3E3E3E;
+    margin-left: 49px;
+    width: 70%;
+}
+
+.food_content h3 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F24;
+    margin-left: 49px;
+    margin-top: 90px;
+    position: relative;
+
+
+}
+
+.food_content h3::after {
+    content: "";
+    position: absolute;
+    width: 91%;
+    height: 3px;
+    background-color: #F4F5F7;
+    bottom: -27px;
+    left: 0px;
+}
+
+.food_content h3 span {
+    margin-left: 5px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #27AE60;
+}
+
+.pilars {
+    background-color: #F4F5F7;
+}
+
+.food_content span {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.food_content p {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F24;
+    margin-left: 49px;
+    margin-top: 50px;
+}
+
+.food_content p span {
+    margin-left: 10px;
+}
+
+.food_content p i {
+    padding-left: 10px;
+}
+
+.green {
+    color: #27AE60;
+
+}
+
+.pilars {
+    margin-top: 50px;
+    padding: 20px;
+    float: left;
+}
+
+.pilar1::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 181px;
+    background-color: #D7D8DA;
+    bottom: -6px;
+    left: 293px;
+}
+
+.pilar1 {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 0px
+}
+
+.pilars {
+    margin-top: 40px;
+    padding: 15px;
+    float: left;
+}
+
+
+
+.pilars h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80.88%;
+    display: flex;
+    align-items: center;
+    color: #3E3E3E;
+    margin-left: 20px;
+
+}
+
+.pilars ul {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.pilars ul li {
+    list-style-type: none;
+}
+
+.pilar2 {
+    width: 70%;
+    float: left;
+}
+
+
+.recepies_select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+
+.recepies_select span {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3E3E3E;
+
+
+}
+
+.recepie-border {
+    width: 100%;
+    border-bottom: 3px solid #F4F5F7;
+    box-sizing: border-box;
+}
+
+#butun {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #3E3E3E;
+}
+
+.card {
+    margin-top: 20px;
+    width: 100%;
+    background: transparent;
+    min-height: 207px;
+}
+
+.card img {
+    float: left;
+    width: 50%;
+}
+
+.card_info {
+    float: left;
+    width: 50%;
+    padding: 50px 0px 0px 30px;
+}
+
+.card_info h1 {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 19px;
+    color: #3E3E3E;
+    float: left;
+}
+
+.card_info p {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #858585;
+    opacity: 0.8;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
